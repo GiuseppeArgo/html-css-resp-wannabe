@@ -1,6 +1,49 @@
+/* tablet 768 */
+
 @media screen and (max-width: 768px) {
     .container {
         width: 100%;
     }
     
+}
+
+
+/* mobile 480 */
+
+@media screen and (max-width: 480px) {
+    
+    .row {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .row .col {
+        width: 100%;
+        padding: 0 1,5rem;
+    }
+
+    .steps {
+        margin-bottom: 0;
+    }
+    
+    .why-us {
+        background-color: #222222;
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
+    .why-us h2 {
+        padding: 3rem;
+    }
+
+    .why-us h3 {
+        padding-right: 6rem;
+    }
+
+    .why-us p {
+    
+    }
+
+
 }
